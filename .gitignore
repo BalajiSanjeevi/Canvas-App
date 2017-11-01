@@ -1,0 +1,84 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea/misc.xml
+/.idea/workspace.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+node_modules/babel-cli/README.md
+node_modules/babel-cli/bin/
+node_modules/babel-cli/index.js
+node_modules/babel-cli/lib/
+node_modules/babel-cli/package-lock.json
+node_modules/babel-cli/package.json
+node_modules/babel-cli/scripts/
+node_modules/babel-jest/README.md
+node_modules/babel-jest/build/
+node_modules/babel-jest/package.json
+node_modules/babel-preset-env/CHANGELOG.md
+node_modules/babel-preset-env/CONTRIBUTING.md
+node_modules/babel-preset-env/LICENSE
+node_modules/babel-preset-env/README.md
+node_modules/babel-preset-env/data/
+node_modules/babel-preset-env/lib/
+node_modules/babel-preset-env/package.json
+node_modules/babel-preset-stage-2/README.md
+node_modules/babel-preset-stage-2/lib/
+node_modules/babel-preset-stage-2/package.json
+node_modules/jest/README.md
+node_modules/jest/bin/
+node_modules/jest/build/
+node_modules/jest/package.json
+node_modules/nodemon/CODE_OF_CONDUCT.md
+node_modules/nodemon/CONTRIBUTING.md
+node_modules/nodemon/Dockerfile
+node_modules/nodemon/README.md
+node_modules/nodemon/bin/
+node_modules/nodemon/commitlint.config.js
+node_modules/nodemon/doc/
+node_modules/nodemon/docs/
+node_modules/nodemon/faq.md
+node_modules/nodemon/lib/
+node_modules/nodemon/package-lock.json
+node_modules/nodemon/package.json
+node_modules/nodemon/travis_after_all.py
+node_modules/regenerator-runtime/README.md
+node_modules/regenerator-runtime/package.json
+node_modules/regenerator-runtime/path.js
+node_modules/regenerator-runtime/runtime-module.js
+node_modules/regenerator-runtime/runtime.js
+/.idea/

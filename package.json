@@ -1,0 +1,28 @@
+{
+  "name": "Canvas-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "babel src -d dist",
+    "start": "node ./dist/canvasApp",
+    "test": "jest --watch --coverage"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "./spec/serializer/array-serializer"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^20.0.4",
+    "nodemon": "^1.12.1",
+    "regenerator-runtime": "^0.10.5"
+  }
+}
